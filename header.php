@@ -19,7 +19,7 @@
 
 		<?php wp_head(); ?>
 	</head>
-	<body <?php body_class(); ?> style ="background-image: url('http://h2511817.stratoserver.net/wp-content/uploads/2016/09/NigthWulf2-Recovered.png');">
+	<body <?php body_class(); ?> style ="background-image: url('http://h2511817.stratoserver.net/wp-content/uploads/2016/11/NigthWulf2-Recovered.png');">
 		
 	<header class="header">
 			<?php if(get_header_image()): ?>
@@ -91,19 +91,7 @@
 	</header>
 		<div id="topside" >
 			<div class="pages">
-				<?
-				//Old Stuff für die Seiten Links 
-				//php wp_nav_menu( array(
-				//'theme_location' => 'secound'  ) ); ?>
-				
-				<a href ="http://h2511817.stratoserver.net/?page_id=11">Artists</a>
-				&nbsp;
-				&nbsp;
-				<a>|</a>
-				&nbsp;
-				&nbsp;	
-				<a href ="http://h2511817.stratoserver.net/?page_id=128">Impressum</a>
-				
+				<h2><?php wp_nav_menu( array('theme_location' => 'secound' ) ); ?></h2>
 			</div><!--/pages-->
 
 			<div id="searchform">

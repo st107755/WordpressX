@@ -173,7 +173,6 @@ header nav a .read span, #searchform .searchbutton:hover {
 	
 }
 
-
 /* Content */
 #content {
 	width: 69%;
@@ -407,9 +406,9 @@ header nav a .read span, #searchform .searchbutton:hover {
 #topside .pages li a:hover { color: #fff; }
 #topside .pages li:hover > ul { display: block; }
 #topside .pages ul a {
-	line-height: 4.6rem;
+	line-height: 5.6rem;
 	color: #929291;
-	font-size: 1.4rem;
+	font-size: 3.4rem;
 	font-weight: 300;
 	display: block;
 	padding: 0 15px;
